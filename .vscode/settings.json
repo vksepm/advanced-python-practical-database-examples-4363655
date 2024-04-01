@@ -34,6 +34,20 @@
       "database": "mariadb",
       "username": "mariadb",
       "password": "mariadb"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MariaDB",
+      "name": "books",
+      "database": "books",
+      "username": "mariadb",
+      "password": "mariadb"
     }
   ]
 }
