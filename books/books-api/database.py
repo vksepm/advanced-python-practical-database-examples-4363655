@@ -2,7 +2,7 @@ from sqlalchemy.orm import registry, relationship
 from sqlalchemy import Column, String, Integer, create_engine, ForeignKey
 
 engine = create_engine(
-    'mysql+mysqlconnector://root:password@localhost:3306/books',
+    'mysql+mysqlconnector://mariadb:mariadb@localhost:3306/books',
     echo=True)
 
 mapper_registry = registry()
